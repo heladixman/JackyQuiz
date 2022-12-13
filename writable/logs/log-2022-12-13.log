@@ -1,0 +1,444 @@
+CRITICAL - 2022-12-13 02:48:54 --> Class "App\Controllers\MJurusan" not found
+in APPPATH\Controllers\Matakuliah.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Matakuliah->updateMatKul()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:55:43 --> Class "App\Controllers\MMahasiswa" not found
+in APPPATH\Controllers\Dosen.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:21 --> Class "App\Models\MDosen" not found
+in APPPATH\Controllers\Dosen.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:37 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:50 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:52 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:53 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:53 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:56:55 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:57:04 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:57:12 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:57:21 --> Call to undefined method App\Models\MDosen::getMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(23): CodeIgniter\Model->__call('getMahasiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 02:58:06 --> mysqli_sql_exception: Table 'jackyquiz.jurusan' doesn't exist in C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\jackyquiz\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\jackyquiz\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\jackyquiz\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\jackyquiz\app\Controllers\Dosen.php(23): CodeIgniter\BaseModel->paginate(10, 'mahasiswa')
+#7 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(927): App\Controllers\Dosen->index()
+#8 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jackyquiz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-13 02:58:06 --> Table 'jackyquiz.jurusan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Dosen.php(23): CodeIgniter\BaseModel->paginate(10, 'mahasiswa')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 02:58:16 --> mysqli_sql_exception: Table 'jackyquiz.jurusan' doesn't exist in C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\jackyquiz\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\jackyquiz\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\jackyquiz\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\jackyquiz\app\Controllers\Dosen.php(23): CodeIgniter\BaseModel->paginate(10, 'dosen')
+#7 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(927): App\Controllers\Dosen->index()
+#8 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jackyquiz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-13 02:58:16 --> Table 'jackyquiz.jurusan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Dosen.php(23): CodeIgniter\BaseModel->paginate(10, 'dosen')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 02:58:39 --> mysqli_sql_exception: Table 'jackyquiz.jurusan' doesn't exist in C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\jackyquiz\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\jackyquiz\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\jackyquiz\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\jackyquiz\app\Controllers\Dosen.php(23): CodeIgniter\BaseModel->paginate(10, 'dosen')
+#7 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(927): App\Controllers\Dosen->index()
+#8 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jackyquiz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-13 02:58:39 --> Table 'jackyquiz.jurusan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `dosen`
+LEFT JOIN `jurusan` ON `JurusanID` = `Mjurusan`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Dosen.php(23): CodeIgniter\BaseModel->paginate(10, 'dosen')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:59:16 --> Undefined variable $mahasiswa
+in APPPATH\Views\pages\Mahasiswa.php on line 55.
+ 1 APPPATH\Views\pages\Mahasiswa.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Views\\pages\\Mahasiswa.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Mahasiswa', [], true)
+ 5 APPPATH\Views\components\myContent.php(3): view('pages/Mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+ 9 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+13 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:59:42 --> Undefined variable $mahasiswa
+in APPPATH\Views\pages\Dosen.php on line 55.
+ 1 APPPATH\Views\pages\Dosen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Views\\pages\\Dosen.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 5 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+ 9 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+13 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:59:50 --> Undefined array key "userCode"
+in APPPATH\Views\pages\Dosen.php on line 59.
+ 1 APPPATH\Views\pages\Dosen.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCode"', 'APPPATH\\Views\\pages\\Dosen.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 5 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+ 9 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+13 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:00:31 --> Undefined array key "mahasiswaID"
+in APPPATH\Views\pages\Dosen.php on line 66.
+ 1 APPPATH\Views\pages\Dosen.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mahasiswaID"', 'APPPATH\\Views\\pages\\Dosen.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 5 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+ 9 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+13 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:01:08 --> Undefined array key "mahasiswaID"
+in APPPATH\Views\pages\Dosen.php on line 69.
+ 1 APPPATH\Views\pages\Dosen.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mahasiswaID"', 'APPPATH\\Views\\pages\\Dosen.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 5 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+ 9 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+13 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:01:15 --> Undefined variable $mataKuliah
+in APPPATH\Views\components\modals\newData.php on line 64.
+ 1 APPPATH\Views\components\modals\newData.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mataKuliah', 'APPPATH\\Views\\components\\modals\\newData.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\modals\\newData.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/modals/newData.php', [], true)
+ 5 APPPATH\Views\pages\Dosen.php(84): view('components/modals/newData.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 9 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+13 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+14 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+15 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+17 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+18 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+19 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:01:35 --> Undefined variable $mataKuliah
+in APPPATH\Views\components\modals\newData.php on line 64.
+ 1 APPPATH\Views\components\modals\newData.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mataKuliah', 'APPPATH\\Views\\components\\modals\\newData.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\modals\\newData.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/modals/newData.php', [], true)
+ 5 APPPATH\Views\pages\Dosen.php(83): view('components/modals/newData.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 9 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+13 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+14 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+15 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+17 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+18 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+19 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:02:15 --> Undefined variable $mataKuliah
+in APPPATH\Views\components\modals\newData.php on line 64.
+ 1 APPPATH\Views\components\modals\newData.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mataKuliah', 'APPPATH\\Views\\components\\modals\\newData.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\modals\\newData.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/modals/newData.php', [], true)
+ 5 APPPATH\Views\pages\Dosen.php(83): view('components/modals/newData.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 9 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+13 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+14 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+15 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+17 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+18 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+19 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:02:53 --> Undefined variable $mataKuliah
+in APPPATH\Views\components\modals\updateData.php on line 67.
+ 1 APPPATH\Views\components\modals\updateData.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mataKuliah', 'APPPATH\\Views\\components\\modals\\updateData.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\modals\\updateData.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/modals/updateData.php', [], true)
+ 5 APPPATH\Views\pages\Dosen.php(84): view('components/modals/updateData.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Dosen.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Dosen', [], true)
+ 9 APPPATH\Views\components\myContent.php(3): view('pages/Dosen')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\myContent.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/myContent', [], true)
+13 APPPATH\Views\components\componentsWrapper.php(6): view('components/myContent')
+14 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\components\\componentsWrapper.php')
+15 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('components/componentsWrapper', [], true)
+17 APPPATH\Controllers\Dosen.php(31): view('components/componentsWrapper', [...])
+18 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+19 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:29:47 --> Call to undefined method App\Models\MDosen::searchDataMhs
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(17): CodeIgniter\Model->__call('searchDataMhs', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:43:18 --> Call to undefined method App\Models\MDosen::searchDataMhs
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(17): CodeIgniter\Model->__call('searchDataMhs', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:47:59 --> Call to undefined method App\Models\MDosen::newMahasiswa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dosen.php(46): CodeIgniter\Model->__call('newMahasiswa', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->newDosen()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 03:48:37 --> mysqli_sql_exception: Column 'dosenName' cannot be null in C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\jackyquiz\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\jackyquiz\app\Models\MDosen.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\jackyquiz\app\Controllers\Dosen.php(46): App\Models\MDosen->newDosen(Array)
+#6 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(927): App\Controllers\Dosen->newDosen()
+#7 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jackyquiz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-13 03:48:37 --> Column 'dosenName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (\'2131002\', NULL, \'laki-laki\', \'082233445566\', \'test\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (\'2131002\', NULL, \'laki-laki\', \'082233445566\', \'test\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (\'2131002\', NULL, \'laki-laki\', \'082233445566\', \'test\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (:dosenCode:, :dosenName:, :dosenSex:, :dosenPhone:, :dosenAddress:)', [...], false)
+ 5 APPPATH\Models\MDosen.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dosen.php(46): App\Models\MDosen->newDosen([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->newDosen()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 03:48:51 --> mysqli_sql_exception: Column 'dosenName' cannot be null in C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\jackyquiz\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\jackyquiz\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\jackyquiz\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\jackyquiz\app\Models\MDosen.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\jackyquiz\app\Controllers\Dosen.php(46): App\Models\MDosen->newDosen(Array)
+#6 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(927): App\Controllers\Dosen->newDosen()
+#7 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\xampp\htdocs\jackyquiz\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jackyquiz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-13 03:48:51 --> Column 'dosenName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (\'2131002\', NULL, \'laki-laki\', \'082233445566\', \'test\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (\'2131002\', NULL, \'laki-laki\', \'082233445566\', \'test\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (\'2131002\', NULL, \'laki-laki\', \'082233445566\', \'test\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`dosenCode`, `dosenName`, `dosenSex`, `dosenPhone`, `dosenAddress`) VALUES (:dosenCode:, :dosenName:, :dosenSex:, :dosenPhone:, :dosenAddress:)', [...], false)
+ 5 APPPATH\Models\MDosen.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dosen.php(46): App\Models\MDosen->newDosen([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dosen->newDosen()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
