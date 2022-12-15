@@ -10,8 +10,15 @@ $(document).ready(function(){
     $('.hapusMhs').on('click', function(){
       const id = $(this).data('id');
       console.log(id)
-      $('.idMahasiswa').val(id);
-      $('#ModalDeleteMahasiswa').modal('show');
+      $('.dosenID').val(id);
+      $('#ModalDeleteDosen').modal('show');
+    });
+
+    $('.hapusJadwal').on('click', function(){
+      const Jid = $(this).data('id');
+      console.log(Jid)
+      $('.jadwalID').val(Jid);
+      $('#ModalDeleteJadwal').modal('show');
     });
 
     // edit without set editModel
@@ -34,10 +41,32 @@ $(document).ready(function(){
       var dosenPhone = $(this).data('phone')
       console.log(dosenID, dosenCode, dosenName, dosenAddress, dosenPhone);
       $('.dosenID').val(dosenID);
-      $('#dosenName').val(dosenName);
-      $('#dosenCode').val(dosenCode);
-      $('#dosenAddress').val(dosenAddress);
-      $('#dosenPhone').val(dosenPhone);
+      $('.dosenName').val(dosenName);
+      $('.dosenCode').val(dosenCode);
+      $('.dosenAddress').val(dosenAddress);
+      $('.dosenPhone').val(dosenPhone);
       $('#ModalUpdateDosen').modal('show');
     });
+
+    $('.editJadwal').on('click', function(){
+      var jadwalID = $(this).data('id')
+      var dosenID = $(this).data('dosen')
+      var matKulID= $(this).data('matkul');
+      var jadwalDay = $(this).data('day')
+      var jadwalDate = $(this).data('date')
+      var jadwalTime = $(this).data('time')
+      console.log(jadwalID, dosenID, matKulID, jadwalDay, jadwalDate, jadwalTime);
+      $('.jadwalID').val(jadwalID);
+      $('.dosenID').val(dosenID);
+      $('.matKulID').val(matKulID);
+      $('.jadwalDay').val(jadwalDay);
+      $('.jadwalDate').val(jadwalDate);
+      $('.jadwalTime').val(jadwalTime);
+      $('#ModalUpdateJadwal').modal('show');
+    });
+
+    $(function() {
+      $('.jadwalDate').datepicker();
+  });
+
   });

@@ -21,7 +21,8 @@ class Matakuliah extends BaseController
         };
         
         $data = [
-            'mataKuliah'    => $model->getMatKul()->getResult(),
+            'matkul'    => $model->getMatKul()->getResult(),
+            'dosen'         => $model->getDosen()->getResult(),
             'breadcrumbs'   => "List Mata Kuliah",
             'title'         => "List Mata Kuliah | Jacky Quiz",
             'addNewButton'  => "Tambah Mata Kuliah",

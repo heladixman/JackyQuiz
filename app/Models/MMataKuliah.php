@@ -15,6 +15,11 @@ class MMataKuliah extends Model
         }
     }
 
+    public function getDosen(){
+        $query = $this->db->table('dosen');
+        return $query->get();
+    }
+
     public function newMatKul($data){
         $query = $this->db->table('matkul')->insert($data);
         return $query;

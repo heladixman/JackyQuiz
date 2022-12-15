@@ -13,10 +13,10 @@ class Mahasiswa extends Migration
                 'type' => 'INT',
                 'auto_increment' => true
             ],
-            'dosenID' =>[
+            'dosenJID' =>[
                 'type' => 'INT',
             ],
-            'matKulID' =>[
+            'matKulJID' =>[
                 'type' => 'INT',
             ],
             'jadwalDay' => [

@@ -9,11 +9,15 @@ class MDosen extends Model
 
     public function getDosen($id = false){
         if ($id === false){
-            $builder = $this->table('dosen')->select('*');
-            return $builder;
+            return $this->table('dosen')->orderBy('dosenID', 'DESC')->get();
         }else{
-            return $this->table('dosen')->where('id',$id)->get()->getRowArray();
+            return $this->table('dosen')->where('dosenID', $id)->get()->getRowArray();
         }
+    }
+
+    public function getMatkul(){
+        $query = $this->db->table('matkul');
+        return $query->get();
     }
 
     public function newDosen($data){
@@ -22,16 +26,16 @@ class MDosen extends Model
     }
 
     public function updateDosen($data, $id){
-        $query = $this->db->table('dosen')->update($data, array('mahasiswaID' => $id));
+        $query = $this->db->table('dosen')->update($data, array('dosenID' => $id));
         return $query;
     }
 
     public function deleteDosen($id){
-        $query = $this->db->table('dosen')->delete(array('mahasiswaID' => $id));
+        $query = $this->db->table('dosen')->delete(array('dosenID' => $id));
         return $query;
     }
     
     public function searchDataDosen($keyword){
-        return $this->table('dosen')->like('userName', $keyword)->orLike('userAddress', $keyword)->orLike('Jurusan', $keyword)->orLike('userSex', $keyword)->orLike('userCode', $keyword)->orLike('userPhone', $keyword);
+        return $this->table('dosen')->like('dosenName', $keyword)->orLike('dosenAddress', $keyword)->orLike('dosenSex', $keyword)->orLike('dosenCode', $keyword)->orLike('dosenPhone', $keyword);
     }
 }

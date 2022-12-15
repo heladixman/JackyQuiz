@@ -14,16 +14,17 @@ class Dosen extends BaseController
     {
         $keyword= $this->request->getPost('keyword');
         if($keyword){
-            $model =  $this->dosen->searchDataMhs($keyword);
+            $model =  $this->dosen->searchDataDosen($keyword);
         }else{
             $model =  $this->dosen;
         };
 
         $data = [
-            'dosen'     => $model->getDosen()->paginate(10, 'dosen'),
+            'dosen'         => $model->getDosen()->getResult(),
             'pager'         => $model->pager,
+            'matkul'        => $model->getMatkul()->getResult(),
             'breadcrumbs'   => "List Dosen",
-            'title'         => "List Dosen | Hela Quiz",
+            'title'         => "List Dosen | Jacky Quiz",
             'addNewButton'  => "Tambah Dosen",
             'content'       => "pages/Dosen"
         ];
@@ -51,15 +52,14 @@ class Dosen extends BaseController
     public function updateDosen(){
         $session = session();
         $model = new MDosen();
-        $id = $this->request->getPost('Mid');
+        $id = $this->request->getPost('dosenID');
 
         $data = array(
-            'userCode'      => $this->request->getPost('userCode'),
-            'userName'      => $this->request->getPost('Mname'),
-            'Mjurusan'      => $this->request->getPost('jurusan'),
-            'userSex'       => $this->request->getPost('jenisKelamin'),
-            'userPhone'     => $this->request->getPost('userPhone'),
-            'userAddress'   => $this->request->getPost('userAddress')
+            'dosenCode'      => $this->request->getPost('dosenCode'),
+            'dosenName'      => $this->request->getPost('dosenName'),
+            'dosenSex'       => $this->request->getPost('dosenSex'),
+            'dosenPhone'     => $this->request->getPost('dosenPhone'),
+            'dosenAddress'   => $this->request->getPost('dosenAddress')
         );
 
         $updateMahasiswa = $model->updateDosen($data, $id);
@@ -72,9 +72,9 @@ class Dosen extends BaseController
     public function deleteDosen(){
         $session = session();
         $model = new MDosen();
-        $id = $this->request->getPost('idMahasiswa');
+        $id = $this->request->getPost('dosenID');
         
-        $removeMahasiswa = $model-> deleteDosen($id);
+        $removeMahasiswa = $model->deleteDosen($id);
 
         session()->setFlashData('message', 'Data Dosen berhasil dihapus');
         return redirect()->to(base_url(). '/dosen');

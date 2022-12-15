@@ -53,17 +53,17 @@
                     ?>
                     <tr>
                         <td><?php echo $no++ ?></td>
-                        <td><?= $data['dosenCode'] ?></td>
-                        <td><?= $data['dosenName'] ?></td>
-                        <td><?= $data['dosenSex'] ?></td>
-                        <td><?= $data['dosenPhone'] ?></td>
-                        <td><?= $data['dosenAddress'] ?></td>
-                        <td><?= $data['createAt']?></td>
+                        <td><?= $data->dosenCode ?></td>
+                        <td><?= $data->dosenName ?></td>
+                        <td><?= $data->dosenSex ?></td>
+                        <td><?= $data->dosenPhone ?></td>
+                        <td><?= $data->dosenAddress ?></td>
+                        <td><?= $data->createAt?></td>
                         <td>
-                              <button type="button" class='btn btn-icon btn-success editMhs' id="editJurusan" data-id="<?= $data['dosenID']?>" data-code="<?=$data['dosenCode']?>" data-phone="<?= $data['dosenPhone'] ?>" data-address="<?= $data['dosenAddress'] ?>" data-name="<?= $data['dosenName']?>">
+                              <button type="button" class='btn btn-icon btn-success editMhs' id="editJurusan" data-id="<?= $data->dosenID?>" data-code="<?=$data->dosenCode?>" data-phone="<?= $data->dosenPhone ?>" data-address="<?= $data->dosenAddress ?>" data-name="<?= $data->dosenName?>">
                                 <i class="bx bx-edit-alt"></i>
                               </button>
-                              <button type="button" class="btn btn-icon btn-outline-danger hapusMhs"  data-id="<?= $data['dosenID']?>">
+                              <button type="button" class="btn btn-icon btn-outline-danger hapusMhs" data-id="<?= $data->dosenID?>">
                                 <i class="bx bx-trash"></i>
                               </button>
                         </td>                             
@@ -72,7 +72,6 @@
                   </tbody>
                 </table>
             </div>
-            <?= $pager->links('mahasiswa', 'my_pager')?>
         </div>
       </div>
     </section>
