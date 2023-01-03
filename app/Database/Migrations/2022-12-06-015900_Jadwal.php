@@ -34,8 +34,8 @@ class Mahasiswa extends Migration
         ]);
 
         $this->forge->addKey('jadwalID', TRUE);
-        $this->forge->addForeignKey('dosenID', 'dosen', 'dosenJID');
-        $this->forge->addForeignKey('matKulID', 'matKul', 'matKulJID');
+        $this->forge->addForeignKey('dosenJID', 'dosen', 'dosenID');
+        $this->forge->addForeignKey('matKulJID', 'matKul', 'matKulID');
         $this->forge->createTable('jadwal', TRUE);
 
     }
