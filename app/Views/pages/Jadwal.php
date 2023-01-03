@@ -2,8 +2,8 @@
 <div class="content-wrapper">
     <section class="content-header mb-3 mt-3">
     <?php if(session()->get('message')) : ?>
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-          <button type="button" class="btn-close font-xl" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="alert alert-success alert-dismissible fade show notification" role="alert">
+          <button type="button" class="btn-close close-notification font-xl" data-bs-dismiss="modal" aria-label="Close"></button>
           <strong><?=session()->getFlashdata('message');?></strong> 
         </div>
     <?php endif;?>

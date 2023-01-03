@@ -2,8 +2,8 @@
 <div class="content-wrapper">
     <section class="content-header mb-3 mt-3">
     <?php if(session()->get('message')) : ?>
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-          <button type="button" class="btn-close font-xl" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="alert alert-success alert-dismissible fade show notification" role="alert">
+          <button type="button" class="btn-close close-notification font-xl" data-bs-dismiss="modal" aria-label="Close"></button>
           <strong><?=session()->getFlashdata('message');?></strong> 
         </div>
     <?php endif;?>
@@ -24,7 +24,7 @@
             </form>
           </div>
           <div class="col-sm-2 col-4">
-            <button type="button" class="btn btn-sm btn-primary w-100 h-75" data-bs-toggle="modal" data-bs-target="#ModalNewDosen"><i class="fas fa-plus-circle"></i><?= $addNewButton ?></button>
+            <button type="button" class="btn btn-sm btn-primary w-100 h-75" data-bs-toggle="modal" data-bs-target="#ModalNewDosen"><?= $addNewButton ?></button>
           </div>
         </div>
       </div>

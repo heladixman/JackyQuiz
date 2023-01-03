@@ -65,6 +65,11 @@ $(document).ready(function(){
       $('#ModalUpdateJadwal').modal('show');
     });
 
+    $('.close-notification').on('click', function(){
+      $("div.notification").addClass("d-none")
+       
+    });
+
     $(function() {
       $('.jadwalDate').datepicker();
   });
